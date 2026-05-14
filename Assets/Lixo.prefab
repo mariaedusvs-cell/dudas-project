@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4960200366086901992}
   - component: {fileID: -3656377492245153276}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Lixo
   m_TagString: Lixo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4960200366086901994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.49, y: 1.901, z: -5.28}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.1384, y: 1.5149, z: -5.6936}
+  m_LocalScale: {x: 0.29702103, y: 0.25727746, z: 0.1728}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

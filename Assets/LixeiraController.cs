@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lixocontrole : MonoBehaviour
+public class LixeiraController : MonoBehaviour
 {
   
   

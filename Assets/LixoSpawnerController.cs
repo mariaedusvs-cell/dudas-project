@@ -6,12 +6,12 @@ using TMPro;
 public class LixoSpawnerController : MonoBehaviour
 
 {
-     public float maximumX;
+     public float maximum;
     public float fixedY;
     public float fixedZ;
-    public float timer;
-    public GameObject Lixo;
-    public int MaxPoints;
+    public float time;
+    public GameObject lixo;
+    public int maxPoints;
     public int points = 0; 
     public TMP_Text pointsText;
     public TMP_Text victoryText;
@@ -28,13 +28,13 @@ public class LixoSpawnerController : MonoBehaviour
     }
     
     IEnumerator SpawnRoutine() {
-    while (points < MaxPoints) {
-        Instantiate(Lixo,
-        new Vector3(Random.Range(-maximumX, maximumX + 1),
+    while (points < maxPoints) {
+        Instantiate(lixo,
+        new Vector3(Random.Range(-maximum, maximum + 1),
         fixedY,
         fixedZ),
         Quaternion.identity);
-        yield return new WaitForSeconds(timer);
+        yield return new WaitForSeconds(time);
     }
     victoryText.gameObject.SetActive(true);
     }
