@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e535a919a355a5e4cb59032f887c748b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lixoSpawnerController: {fileID: 724424606}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38334eaf9704f8f4b812356adeada1eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 0.08
+  velocity: 0.4
 --- !u!82 &461117888
 AudioSource:
   m_ObjectHideFlags: 0
@@ -848,7 +849,7 @@ MonoBehaviour:
   fixedZ: 0
   time: 2
   lixo: {fileID: 4960200366086901994, guid: 22796c5140ab3c5489891755eda39731, type: 3}
-  maxPoints: 10
+  maxPoints: 5
   points: 0
   pointsText: {fileID: 1470800092}
   victoryText: {fileID: 1643219085}
